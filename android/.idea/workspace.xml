@@ -97,7 +97,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="0.16262136" vertical-offset="23" max-vertical-offset="435">
+            <state line="4" column="30" selection-start="203" selection-end="203" vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="435">
               <folding>
                 <element signature="e#432#450#0" expanded="true" />
                 <element signature="e#539#557#0" expanded="true" />
@@ -801,11 +801,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/action_bar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/in/manki/android/mpass/MPassActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1308,7 +1308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="0.16262136" vertical-offset="23" max-vertical-offset="435">
+        <state line="4" column="30" selection-start="203" selection-end="203" vertical-scroll-proportion="0.14563107" vertical-offset="0" max-vertical-offset="435">
           <folding>
             <element signature="e#432#450#0" expanded="true" />
             <element signature="e#539#557#0" expanded="true" />
