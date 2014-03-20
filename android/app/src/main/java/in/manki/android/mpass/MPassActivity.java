@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.webkit.ConsoleMessage;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -63,11 +64,10 @@ public class MPassActivity extends Activity {
 
     web.setWebChromeClient(new WebChromeClient(){
       @Override
-      public void onConsoleMessage(String message, int lineNumber,
-          String sourceID) {
-        super.onConsoleMessage(message, lineNumber, sourceID);
-        Log.d(LOG_TAG,
-            String.format("%s:%d -- %s", sourceID, lineNumber, message));
+      public boolean onConsoleMessage(ConsoleMessage message) {
+        Log.d(LOG_TAG, String.format(
+                "%s:%d -- %s", message.sourceId(), message.lineNumber(), message.message()));
+        return super.onConsoleMessage(message);
       }
     });
   }

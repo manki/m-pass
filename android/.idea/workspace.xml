@@ -97,7 +97,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="435">
+            <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="0.32" vertical-offset="98" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -115,8 +115,11 @@
       <file leaf-file-name="MPassActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/in/manki/android/mpass/MPassActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="10" selection-start="878" selection-end="878" vertical-scroll-proportion="0.8737864" vertical-offset="0" max-vertical-offset="1230">
-              <folding />
+            <state line="28" column="26" selection-start="809" selection-end="809" vertical-scroll-proportion="-1.184466" vertical-offset="728" max-vertical-offset="1275">
+              <folding>
+                <element signature="e#1769#2065#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -787,6 +790,7 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/action_bar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/in/manki/android/mpass/MPassActivity.java" />
       </list>
     </option>
   </component>
@@ -1008,6 +1012,10 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="003d28f09694b915" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="ICS" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1193,7 +1201,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1228,7 +1236,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="435">
+        <state line="6" column="69" selection-start="277" selection-end="277" vertical-scroll-proportion="0.32" vertical-offset="98" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
@@ -1280,8 +1288,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/in/manki/android/mpass/MPassActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="878" selection-end="878" vertical-scroll-proportion="0.8737864" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
+        <state line="28" column="26" selection-start="809" selection-end="809" vertical-scroll-proportion="-1.184466" vertical-offset="728" max-vertical-offset="1275">
+          <folding>
+            <element signature="e#1769#2065#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
