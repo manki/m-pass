@@ -3,10 +3,12 @@ package in.manki.android.mpass;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.ConsoleMessage;
 import android.webkit.WebChromeClient;
@@ -27,23 +29,9 @@ public class MPassActivity extends Activity {
 
     web = (WebView) findViewById(R.id.web);
     configureWebView(web);
-  }
+    getActionBar().setHomeButtonEnabled(true);
 
-  @Override
-  protected void onStart() {
-    super.onStart();
-
-    if (!isOnLoginPage()) {
-      loadApp();
-    }
-  }
-
-  private boolean isOnLoginPage() {
-    try {
-      return new URL(web.getUrl()).getAuthority().contains(".google.com");
-    } catch (MalformedURLException e) {
-      return false;
-    }
+    loadApp();
   }
 
   private void loadApp() {
@@ -73,10 +61,19 @@ public class MPassActivity extends Activity {
   }
 
   @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    super.onCreateOptionsMenu(menu);
+    getMenuInflater().inflate(R.menu.activity_main, menu);
+    return true;
+  }
+
+  @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (item.getItemId() == android.R.id.home) {
-      loadApp();
-      return true;
+    switch (item.getItemId()) {
+      case android.R.id.home:
+      case R.id.menu_item_refresh:
+        loadApp();
+        return true;
     }
     return super.onOptionsItemSelected(item);
   }

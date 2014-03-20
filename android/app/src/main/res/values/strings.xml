@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World, MPassActivity!</string>
     <string name="app_name">Password Safe</string>
+  <string name="refresh">Refresh</string>
 
 </resources>
