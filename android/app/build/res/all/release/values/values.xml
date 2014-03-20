@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/m/d/code/github/m-pass/android/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Password Safe</string>
+    <string name="hello">Hello World, MPassActivity!</string>
+    <string name="refresh">Refresh</string>
+
+</resources>
