@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/m/d/code/github/m-pass/android/app/src/main/res" >
+            <file
+                name="main"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_copy"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-xhdpi/ic_menu_copy.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Password Safe
+                </string>
+                <string name="hello" >Hello World, MPassActivity!
+                </string>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_copy"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-mdpi/ic_menu_copy.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="action_bar"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/menu/action_bar.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_copy"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-hdpi/ic_menu_copy.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/m/d/code/github/m-pass/android/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+        </source>
+        <source path="/home/m/d/code/github/m-pass/android/app/build/res/rs/debug" />
+        <source path="/home/m/d/code/github/m-pass/android/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/m/d/code/github/m-pass/android/app/src/debug/res" />
+    </dataSet>
+
+</merger>
